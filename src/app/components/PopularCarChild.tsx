@@ -5,6 +5,7 @@ import Link from "next/link";
 import { FaRegLifeRing } from "react-icons/fa";
 import { BsFillFuelPumpFill } from "react-icons/bs";
 import { CiHeart } from "react-icons/ci";
+import Image from "next/image";
 
 interface CarCardProps {
   carId: number;
@@ -44,7 +45,7 @@ const CarCard: React.FC<CarCardProps> = ({
             <p className="text-[12px] text-gray-600 mx-2 lg:mx-3">{Model}</p>
           </div>
           <div className="w-11/12 h-32 my-8">
-            <img
+            <Image
               src={carImage}
               alt={carName}
               height={60}

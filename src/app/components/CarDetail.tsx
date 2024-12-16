@@ -42,9 +42,9 @@ export default function CarDetail() {
               <h2 className="text-gray-500">440+ Reviewer</h2>
             </div>
             <div className="text-gray-500 mt-5 sm:text-sm">
-              NISMO has become the embodiment of Nissan's outstanding
+              NISMO has become the embodiment of Nissan&apos;s outstanding
               performance, inspired by the most unforgiving proving ground, the
-              "race track".
+              &#34;race track&#34;.
             </div>
 
             <div className="w-full flex mt-7">
