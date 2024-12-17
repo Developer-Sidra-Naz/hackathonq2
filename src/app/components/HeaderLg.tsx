@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <>
       {/* Navbar */}
-      {/* done navbar */}
+  
       <nav className="bg-white py-4 px-5 shadow-md flex flex-wrap items-center justify-between">
         {/* Logo & Search Bar */}
         <div className="flex flex-wrap items-center justify-between w-full lg:w-auto space-y-4 lg:space-y-0">
