@@ -29,7 +29,6 @@ const CarCard: React.FC<CarCardProps> = ({
   carPrice,
 }) => (
   <div>
-    {/* Update Link with dynamic route */}
     <Link href="/detail">
       <div className="bg-white shadow-md rounded-lg p-4 flex flex-col items-center lg:flex-row lg:m-2 w-full lg:w-[290px] transition-transform transform hover:scale-105">
         <div>
@@ -85,7 +84,7 @@ const CarCard: React.FC<CarCardProps> = ({
 
           <div className="flex mt-3">
             <p className="text-[15px] font-bold mt-2">{carPrice}</p>
-            <Link href="Billing">
+            <Link href="/billing">
             <button className="lg:ml-12 px-2 py-2 bg-blue-700 rounded-md hover:bg-blue-800 text-white">
               Rent Now
             </button>

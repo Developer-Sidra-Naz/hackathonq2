@@ -86,9 +86,11 @@ export default function CarDetail() {
               </div>
 
               <div className="w-2/6">
+               <Link href="/billing">
                 <button className="lg:ml-12 px-2 py-2 bg-blue-700 rounded-md hover:bg-blue-800 text-white">
                   Rent Now
                 </button>
+                </Link>
               </div>
             </div>
           </div>
