@@ -1,3 +1,4 @@
+import { BiLogOut } from "react-icons/bi";
 import { IoCarSportOutline } from "react-icons/io5";
 import { RiHome5Line } from "react-icons/ri";
 import { CgInsights } from "react-icons/cg";
@@ -77,6 +78,13 @@ export default function Admin() {
               </li>
             </Link>
           </ul>
+
+          <ul>
+            <Link href=""><li className="gap-2 flex mx-1 hover:bg-gray-800 rounded-md p-3 hover:text-white">
+                <BiLogOut className="m-1"/>Log Out
+            </li></Link>
+          </ul>
+  
         </section>
         {/* right section */}
         <section className="lg:flex w-full lg:w-4/5 bg-gray-100">
@@ -192,16 +200,16 @@ export default function Admin() {
                 </div>
               </div>
             </div>
-
+<hr />
             <div className="w-full flex justify-between">
-              <div className="m-2 p-2">
+              <div className="m-1 p-2">
                 <h1 className="font-semibold ">Total Rental Price</h1>
                 <p className="text-[12px] text-gray-500">
                   Overall prices and includes rental discounts
                 </p>
               </div>
               <div>
-                <h1 className="font-semibold m-2 p-2 text-2xl">$80.00</h1>
+                <h1 className="font-semibold m-1 p-2 text-2xl">$80.00</h1>
               </div>
             </div>
           </div>

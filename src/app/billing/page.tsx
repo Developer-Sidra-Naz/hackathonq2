@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Billing() {
   return (
     <div className="">
-      <div className="bg-gray-50 w-full flex ">
+      <div className="bg-gray-50 w-full lg:flex ">
         <div className="p-2 w-full lg:w-2/3">
           <div className=" p-2 w-full">
             {/* Info area */}
@@ -167,7 +167,7 @@ export default function Billing() {
                   <div className="flex items-center w-full lg:w-1/2 gap-2 m-2">
                     <MdRadioButtonChecked className="text-blue-700 hover:bg-blue-900" />
 
-                    <p className="font-bold">Credit Card</p>
+                    <p className="font-bold sm:text-base lg:text-md">Credit Card</p>
                   </div>
                   <div className="relative w-full h-[50px]">
                     <Image
@@ -180,7 +180,7 @@ export default function Billing() {
                   </div>
                 </div>
 
-                <div className="flex">
+                <div className="lg:flex">
                   <div className="w-full lg:w-1/2 p-2 m-2">
                     <h1 className="text-1xl font-semibold">Card Number</h1>
                     <Input
@@ -198,7 +198,7 @@ export default function Billing() {
                   </div>
                 </div>
 
-                <div className="flex">
+                <div className="lg:flex">
                   <div className="w-full lg:w-1/2 p-2 m-2">
                     <h1 className="text-1xl font-semibold">Card Holder</h1>
                     <Input
