@@ -6,7 +6,7 @@ export default function Detail(){
   return(
     <div>
      <div className="flex">
-      <div className="w-1/4">
+      <div className="lg:w-1/4 sm:hidden">
       <Side/>
       </div>
       <div className="w-full lg:w-3/4">
