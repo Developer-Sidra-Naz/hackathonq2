@@ -13,7 +13,7 @@ export default function View(){
            <Side/>
             </div> 
             {/* right section */}
-            <div className="sm: w-full lg:w-3/4 bg-gray-50">
+            <div className="sm:w-full lg:w-3/4 bg-gray-50">
             <PickDrop/>
             <PopularCarParent/>
             </div>

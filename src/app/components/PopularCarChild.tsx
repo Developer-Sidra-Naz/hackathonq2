@@ -85,7 +85,7 @@ const CarCard: React.FC<CarCardProps> = ({
           <div className="flex mt-3">
             <p className="text-[15px] font-bold mt-2">{carPrice}</p>
             <Link href="/billing">
-            <button className="lg:ml-12 px-2 py-2 bg-blue-700 rounded-md hover:bg-blue-800 text-white">
+            <button className="lg:ml-12 ml-12 px-2 py-2 bg-blue-700 rounded-md hover:bg-blue-800 text-white">
               Rent Now
             </button>
             </Link>

@@ -9,7 +9,7 @@ export default function Detail(){
       <div className="w-1/4">
       <Side/>
       </div>
-      <div className="w-3/4">
+      <div className="w-full lg:w-3/4">
       <CarDetail/>
       <PopularCarParent/>
       </div>
